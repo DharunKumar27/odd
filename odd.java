@@ -6,12 +6,18 @@ Scanner tt=new Scanner(System.in);
 int a;
 System.out.println("enter the value:");
 a=tt.nextInt();
+if(a>0)
+{
 if(a%2==0)
 {
 System.out.println("even");
-}else
-{
+}
+else{
 System.out.println("odd");
+}
+}
+else{
+System.out.println("invalid");
 }
 }
 }
